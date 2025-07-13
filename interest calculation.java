@@ -1,0 +1,24 @@
+package oop work;
+
+
+public class DataTypes {
+    void showInterest(){
+        double amount; // principal amount
+        double rate; // interest rate
+
+        amount = 1500.00; // principal amount initialization
+        System.out.println("Principal Amount: " + amount);
+
+        rate = 8.6.00; // interest rate
+        amount = amount * (amount + rate )/ 100; // calculate interest
+        System.out.println("after a year: " + amount); // print the amount after a year
+
+        amount = amount * (100 + rate) / 100; // calculate interest for the next year
+        System.out.println("after 3 years: " + amount); // print the amount after 2 years
+    }
+
+    public static void main(String[] args) {
+        DataTypes dt = new DataTypes(); // create an instance of the class
+        dt.showInterest(); // call the showInterest method
+    }
+}
